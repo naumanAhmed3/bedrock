@@ -1,0 +1,4 @@
+runtime: nodejs
+description: >-
+  Bedrock platform policy pack (Pulumi CrossGuard) — enforces key strength,
+  certificate validity bounds, and password rules across every stack.

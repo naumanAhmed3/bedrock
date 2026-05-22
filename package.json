@@ -1,0 +1,21 @@
+{
+  "name": "bedrock",
+  "private": true,
+  "main": "index.ts",
+  "description": "Multi-environment platform foundation provisioned with Pulumi.",
+  "scripts": {
+    "preview": "pulumi preview",
+    "up": "pulumi up",
+    "policy": "pulumi preview --policy-pack ./policy"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "@pulumi/command": "^1.0.1",
+    "@pulumi/pulumi": "^3.140.0",
+    "@pulumi/random": "^4.16.0",
+    "@pulumi/tls": "^5.1.0"
+  }
+}

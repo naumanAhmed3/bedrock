@@ -1,0 +1,9 @@
+name: bedrock
+runtime:
+  name: nodejs
+  options:
+    typescript: true
+description: >-
+  A multi-environment platform foundation as code — network topology, a TLS
+  PKI, per-service secrets and rendered configuration — built from reusable
+  Pulumi component resources.

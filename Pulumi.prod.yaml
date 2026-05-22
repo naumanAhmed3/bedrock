@@ -1,0 +1,11 @@
+config:
+  bedrock:environment: prod
+  bedrock:domain: bedrock.example.com
+  bedrock:networkCidr: 10.20.0.0/16
+  bedrock:certValidityHours: "2160"
+  bedrock:services:
+    - {name: gateway, port: 8080, replicas: 3, public: true}
+    - {name: api, port: 8081, replicas: 4, public: false}
+    - {name: worker, port: 8082, replicas: 2, public: false}
+    - {name: web, port: 8083, replicas: 3, public: true}
+encryptionsalt: v1:dNf+EBZQTko=:v1:9kRf/NDNws0b9Ja1:rXPhZseG6OW+0bhZ2SHaSXRooi09cQ==
